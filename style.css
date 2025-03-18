@@ -1,9 +1,8 @@
-body {
-  font-family: Arial, sans-serif;
-  background-image: url("https://www.prawo.pl/kadry/sklep-w-ktorym-jest-agencja-pocztowa-czy-moze-byc-otwarty-w,364352.html");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  body {
+      background-image: url("https://ocdn.eu/images/pulscms/MGE7MDA_/22ef1d89-d720-4e34-827c-1ff054dba74a.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,12 +11,14 @@ body {
 }
 
 .container {
-  background: white;
+  background: rgba(255, 255, 255,0.8);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
   text-align: center;
+
+  
 }
 
 h1 {
