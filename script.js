@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <span>${text}</span>
             <div>
                 <button class="edit">✏️</button>
-                <button class="delete">🗑️</button>
+                <button class="delete">x</button>
             </div>
         `;
 
@@ -34,4 +34,5 @@ document.addEventListener("DOMContentLoaded", () => {
             li.remove();
         });
     }
+    
 });
