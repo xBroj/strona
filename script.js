@@ -23,26 +23,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
         list.appendChild(li);
 
-
         li.querySelector(".edit").addEventListener("click", () => {
             const newText = prompt("Edytuj przedmiot:", text);
             if (newText) li.querySelector("span").textContent = newText;
         });
-
 
         li.querySelector(".delete").addEventListener("click", () => {
             li.remove();
         });
     }
     
+    function updateClock() {
+        const now = new Date();
+        let godziny = now.getHours().toString().padStart(2, "0");
+        let minuty = now.getMinutes().toString().padStart(2, "0");
+        let sekundy = now.getSeconds().toString().padStart(2, "0");
+        document.getElementById("zegar").textContent = `${godziny}:${minuty}:${sekundy}`;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
 });
-function updateClock() {
-    const now = new Date();
-    let godziny = now.getHours().toString().padStart(2, "0");
-    let minuty = now.getMinutes().toString().padStart(2, "0");
-    let sekundy = now.getSeconds().toString().padStart(2, "0");
-
-    document.getElementById("zegar").textContent = `${hours}:${minutes}:${seconds}`;
-}
-setInterval(updateClock, 1000);
-updateClock();
