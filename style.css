@@ -10,17 +10,17 @@ body {
     background-size: cover;
 }
 .zegar-container {
-    position: absolute; /* Ustawienie na stałe w rogu */
-    top: 20px; /* Odstęp od góry */
-    left: 20px; /* Odstęp od lewej strony */
-    background: rgba(0, 0, 0, 0.7); /* Lekko przezroczyste tło */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 #zegar {
     font-family: "Arial", sans-serif;
-    font-size: 24px; /* Trochę mniejszy, żeby nie dominował */
+    font-size: 24px;
     color: #fff;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     font-weight: bold;
