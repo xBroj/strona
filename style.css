@@ -1,18 +1,8 @@
-  body {
-      background-image: url("https://ocdn.eu/images/pulscms/MGE7MDA_/22ef1d89-d720-4e34-827c-1ff054dba74a.jpeg");
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
 body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column; /* Ustawienie elementów w pionie */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -26,6 +16,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
+    margin-bottom: 20px; /* Dodanie odstępu od listy */
 }
 
 #zegar {
@@ -36,84 +27,81 @@ body {
     font-weight: bold;
 }
 
-
 .container {
-  background: rgba(255, 255, 255,0.8);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  text-align: center;
-
-  
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
 }
 
 h1 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 form {
-  display: flex;
-  gap: 5px;
+    display: flex;
+    gap: 5px;
 }
 
 input {
-  flex-grow: 1;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 button {
-  padding: 5px 10px;
-  border: none;
-  background-color: #28a745;
-  color: white;
-  border-radius: 4px;
-  cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #218838;
+    background-color: #218838;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
 }
 
 li {
-  background: #e9ecef;
-  margin: 5px 0;
-  padding: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 4px;
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
 }
 
 .edit,
 .delete {
-  border: none;
-  padding: 5px;
-  cursor: pointer;
-  border-radius: 4px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .edit {
-  background-color: #ffc107;
+    background-color: #ffc107;
 }
 
 .edit:hover {
-  background-color: #e0a800;
+    background-color: #e0a800;
 }
 
 .delete {
-  background-color: #dc3545;
-  color: white;
+    background-color: #dc3545;
+    color: white;
 }
 
 .delete:hover {
-  background-color: #c82333;
+    background-color: #c82333;
 }
