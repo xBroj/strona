@@ -9,22 +9,23 @@ body {
     background: url("https://source.unsplash.com/1600x900/?night,city") no-repeat center center fixed;
     background-size: cover;
 }
-
 .zegar-container {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px 40px;
-    border-radius: 10px;
+    position: absolute; /* Ustawienie na stałe w rogu */
+    top: 20px; /* Odstęp od góry */
+    left: 20px; /* Odstęp od lewej strony */
+    background: rgba(0, 0, 0, 0.7); /* Lekko przezroczyste tło */
+    padding: 10px 20px;
+    border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    margin-bottom: 20px; /* Dodanie odstępu od listy */
 }
-
 #zegar {
     font-family: "Arial", sans-serif;
-    font-size: 60px;
+    font-size: 24px; /* Trochę mniejszy, żeby nie dominował */
     color: #fff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     font-weight: bold;
+}
+
 }
 
 .container {
