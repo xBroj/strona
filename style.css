@@ -1,14 +1,13 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-   background-image: url("https://ocdn.eu/images/pulscms/MGE7MDA_/22ef1d89-d720-4e34-827c-1ff054dba74a.jpeg")no-repeat center center fixed;
-     background-color: #cccccc;
-    background-size: cover;
+ body {
+      background-image: url("https://ocdn.eu/images/pulscms/MGE7MDA_/22ef1d89-d720-4e34-827c-1ff054dba74a.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 .zegar-container {
     position: absolute;
