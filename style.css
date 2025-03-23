@@ -6,7 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeG4tgbG3DbuAmgK9XMg34rConOpt86PDIAQ&s") no-repeat center center fixed;
+   background-image: url("https://ocdn.eu/images/pulscms/MGE7MDA_/22ef1d89-d720-4e34-827c-1ff054dba74a.jpeg")no-repeat center center fixed;
+     background-color: #cccccc;
     background-size: cover;
 }
 .zegar-container {
