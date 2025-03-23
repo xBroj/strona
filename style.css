@@ -9,6 +9,33 @@
   height: 100vh;
   margin: 0;
 }
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://source.unsplash.com/1600x900/?night,city") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.zegar-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#zegar {
+    font-family: "Arial", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+}
+
 
 .container {
   background: rgba(255, 255, 255,0.8);
