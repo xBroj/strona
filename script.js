@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
             li.remove();
         });
     }
-    
+
     function updateClock() {
         const now = new Date();
         let godziny = now.getHours().toString().padStart(2, "0");
